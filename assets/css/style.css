@@ -343,7 +343,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/Jacobs.jpg);
+	background: url(../images/Climbing.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -1038,6 +1038,45 @@ figure.effect-bubba:hover p {
     }
 }
 
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #525252;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #525252;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 .Homii{
 	border-radius: 25px;
+}
+
+.v5{
+	font-size: 24px;
 }
